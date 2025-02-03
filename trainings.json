@@ -1,35 +1,62 @@
 {
     "trainings": [
         {
-            "date": "2025-01-14",
-            "name": "Bike - VO2 Max Intervals",
+            "date": "2025-01-29",
+            "name": "Run - Intervals 6x400m",
+            "day": "1",
+            "type": "Run",
             "steps": [
-                {"duration": "10m", "zone": "Z2", "cadence": "85rpm", "description": "Warm-up"},
-                {"duration": "3m", "zone": "Z5", "cadence": "95rpm", "description": "High-intensity interval"},
-                {"duration": "3m", "zone": "Z2", "cadence": "85rpm", "description": "Recovery"},
-                {"duration": "3m", "zone": "Z5", "cadence": "95rpm", "description": "High-intensity interval"},
-                {"duration": "3m", "zone": "Z2", "cadence": "85rpm", "description": "Recovery"},
-                {"duration": "10m", "zone": "Z1", "cadence": "Free", "description": "Cool-down"}
+                {"distance": "1km", "zone": "Z2", "description": "Warm-up"},
+                {"distance": "0.4km", "zone": "Z5", "description": "Interval at 3:45–4:00/km pace"},
+                {"distance": "0.2km", "zone": "Z1", "description": "Recovery jog"},
+                {"distance": "0.4km", "zone": "Z5", "description": "Repeat interval"},
+                {"distance": "0.2km", "zone": "Z1", "description": "Recovery jog"},
+                {"distance": "0.4km", "zone": "Z5", "description": "Repeat interval"},
+                {"distance": "0.2km", "zone": "Z1", "description": "Recovery jog"},
+                {"distance": "0.4km", "zone": "Z5", "description": "Repeat interval"},
+                {"distance": "0.2km", "zone": "Z1", "description": "Recovery jog"},
+                {"distance": "0.4km", "zone": "Z5", "description": "Repeat interval"},
+                {"distance": "1km", "zone": "Z1", "description": "Cool-down"}
             ]
         },
         {
-            "date": "2025-01-15",
-            "name": "Swim - Technique Focus",
+            "date": "2025-01-30",
+            "name": "Run - Easy Recovery",
+            "day": "2",
+            "type": "Run",
             "steps": [
-                {"duration": "200m", "zone": "Z1 HR", "description": "Warm-up"},
-                {"duration": "50m", "zone": "Z2 HR", "description": "Drill - catch-up stroke"},
-                {"duration": "50m", "zone": "Z2 HR", "description": "Drill - breathing every 3 strokes"},
-                {"duration": "50m", "zone": "Z2 HR", "description": "Drill - one-arm swimming"},
-                {"duration": "200m", "zone": "Z1 HR", "description": "Cool-down"}
+                {"distance": "5km", "zone": "Z1", "description": "Easy recovery pace"}
             ]
         },
         {
-            "date": "2025-01-16",
-            "name": "Run - Easy Tempo",
+            "date": "2025-01-31",
+            "name": "Run - Tempo 6km",
+            "day": "4",
+            "type": "Run",
             "steps": [
-                {"duration": "10m", "zone": "Z2 HR", "description": "Warm-up"},
-                {"duration": "20m", "zone": "Z3 HR", "description": "Moderate effort"},
-                {"duration": "10m", "zone": "Z1 HR", "description": "Cool-down"}
+                {"distance": "1km", "zone": "Z2", "description": "Warm-up"},
+                {"distance": "6km", "zone": "Z4", "description": "Tempo pace at 4:35/km"},
+                {"distance": "1km", "zone": "Z1", "description": "Cool-down"}
+            ]
+        },
+        {
+            "date": "2025-02-01",
+            "name": "Run - Long 10km",
+            
+            "day": "16",
+            "type": "Run",
+            "steps": [
+                {"distance": "10km", "zone": "Z2", "description": "Steady pace at 5:15–5:30/km"}
+            ]
+        },
+        {
+            "date": "2025-02-02",
+            "name": "Run - Recovery",
+            
+            "day": "7",
+            "type": "Run",
+            "steps": [
+                {"distance": "6km", "zone": "Z1", "description": "Easy recovery pace"}
             ]
         }
     ]
